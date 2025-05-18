@@ -57,7 +57,7 @@ sns.scatterplot(x='temp_max', y='precipitation', data=weather_data)
 ```
 Reveals relationship between heat and rainfall levels.
 
-![Scatter Temp vs Precip](images/chart_scatter_temp_precip.png)
+![Scatter Temp vs Precip](image/chart_scatter_temp_precip.png)
 
 ---
 
@@ -68,7 +68,7 @@ plt.plot(df['Date'], df['temp_min'], color='blue')
 ```
 Shows seasonal patterns and warming trend over 4 years.
 
-![Line Chart](images/chart_temp_trends.png)
+![Line Chart](image/chart_temp_trends.png)
 
 ---
 
@@ -78,7 +78,7 @@ sns.heatmap(weather_data.corr(), annot=True, cmap='coolwarm')
 ```
 Visualizes relationships between temp, wind, precipitation.
 
-![Correlation Heatmap](images/chart_correlation_matrix.png)
+![Correlation Heatmap](image/chart_correlation_matrix.png)
 
 ---
 
@@ -89,7 +89,7 @@ Visualizes relationships between temp, wind, precipitation.
 ```markdown
 ✅ Confirmed: Sunny conditions are associated with high temperatures; cold temps appear more in fog, snow, drizzle.
 ```
-![Extreme Temp Chart](images/chart_extreme_weather_types.png)
+![Extreme Temp Chart](image/chart_extreme_weather_types.png)
 
 ---
 
@@ -98,7 +98,7 @@ Visualizes relationships between temp, wind, precipitation.
 ```markdown
 ✅ Confirmed: Clear increasing trend in both max and min temps from 2012 to 2015.
 ```
-![Yearly Temp Trend](images/chart_yearly_temp_trend.png)
+![Yearly Temp Trend](image/chart_yearly_temp_trend.png)
 
 ---
 
@@ -107,7 +107,7 @@ Visualizes relationships between temp, wind, precipitation.
 ```markdown
 ✅ Confirmed: Rain and snow categories have significantly higher precipitation.
 ```
-![Weather Precip Chart](images/chart_weather_vs_precip.png)
+![Weather Precip Chart](image/chart_weather_vs_precip.png)
 
 ---
 
