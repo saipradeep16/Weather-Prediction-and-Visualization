@@ -47,7 +47,7 @@ sns.histplot(weather_data['temp_max'], bins=30, kde=True)
 ```
 Shows frequency of temperature values and outliers.
 
-![Max Temp Histogram](images/chart_temp_max_hist.png)
+![Max Temp Histogram](image/chart_temp_max_hist.png)
 
 ---
 
